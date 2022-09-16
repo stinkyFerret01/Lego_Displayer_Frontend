@@ -1,1 +1,25 @@
-@import "./styles/reset.css"
+/* ----IMPORTS---- */
+
+@import "./styles/reset.css";
+@import "./styles/home.css";
+
+/* ----GENERAL____ */
+
+.app {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    width: calc(100vw - 4rem);
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+}
+
+/* ----TEXT---- */
+
+h1 {
+    font-size: 2rem;
+}
