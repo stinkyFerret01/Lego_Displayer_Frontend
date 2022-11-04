@@ -1,14 +1,17 @@
+import { Link } from "react-router-dom";
+
 const Cas = ({ type }) => {
   // ----CASTLES----
 
   if (type === "Cas") {
     return (
-      <button className="cas">
+      <Link to="/castle" className="cas">
+        {" "}
         <div className="casTop"></div>
         <div className="casBottom">
           <h1>Castles</h1>
         </div>
-      </button>
+      </Link>
     );
   }
 
@@ -16,12 +19,12 @@ const Cas = ({ type }) => {
 
   if (type === "cAs") {
     return (
-      <button className="cas">
+      <Link to="/army" className="cas">
         <div className="casTop"></div>
         <div className="casBottom">
           <h1>Armies</h1>
         </div>
-      </button>
+      </Link>
     );
   }
 
@@ -29,12 +32,12 @@ const Cas = ({ type }) => {
 
   if (type === "caS") {
     return (
-      <button className="cas">
+      <Link to="/soldier" className="cas">
         <div className="casTop"></div>
         <div className="casBottom">
           <h1>Soldiers</h1>
         </div>
-      </button>
+      </Link>
     );
   }
 };

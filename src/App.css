@@ -14,8 +14,7 @@
 
 .main {
     width: calc(100vw - 4rem);
-    padding: 1rem 2rem;
-    box-sizing: border-box;
+    padding: 1rem 0rem;
 }
 
 /* ----TEXT---- */
